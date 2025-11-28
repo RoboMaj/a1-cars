@@ -21,8 +21,8 @@ const BookingForm = () => {
         e.preventDefault();
         setStatus('sending');
 
-        // Placeholder for n8n webhook URL - User needs to replace this
-        const WEBHOOK_URL = 'https://n8n.n8nmajidu.uk/webhook-test/booking';
+        // Production n8n URL (Required for CORS to work correctly on deployed sites)
+        const WEBHOOK_URL = 'https://n8n.n8nmajidu.uk/webhook/booking';
 
         try {
             const response = await fetch(WEBHOOK_URL, {
