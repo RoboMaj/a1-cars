@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://robomaj.github.io/a1-cars",
+  "homepage": "https://a1carschippingnorton.co.uk",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
