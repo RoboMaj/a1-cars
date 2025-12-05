@@ -21,6 +21,7 @@ function App() {
         <BookingForm />
         {/* <div className="p-10 text-center">App Loaded</div> */}
       </main>
+      <a target="_blank" href="https://icons8.com/icon/qRo6mXkL8iFE/car">Car</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
       <Footer />
     </div>
   );
