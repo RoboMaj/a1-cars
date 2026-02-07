@@ -22,7 +22,7 @@ const TestHero2 = () => {
                     <p className="text-xl md:text-2xl mb-10 text-gray-200 font-light max-w-2xl mx-auto drop-shadow-md">
                         Your journey, our priority. Experience premium travel with A1 Cars.
                     </p>
-                    <div className="flex flex-col md:flex-row gap-4 justify-center">
+                    <div className="flex flex-col md:flex-row flex-wrap gap-4 justify-center">
                         <a
                             href="#booking"
                             className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-10 rounded-full transition duration-300 transform hover:scale-105 shadow-lg hover:shadow-blue-500/50"
@@ -34,6 +34,20 @@ const TestHero2 = () => {
                             className="bg-transparent border-2 border-white hover:bg-white hover:text-gray-900 text-white font-bold py-4 px-10 rounded-full transition duration-300 transform hover:scale-105 shadow-lg"
                         >
                             Our Services
+                        </a>
+                        <a
+                            href="tel:07528133960"
+                            className="bg-white text-gray-900 font-bold py-4 px-10 rounded-full transition duration-300 transform hover:scale-105 shadow-lg hover:shadow-blue-500/50"
+                        >
+                            Call 07528133960
+                        </a>
+                        <a
+                            href="https://wa.me/447528133960"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-10 rounded-full transition duration-300 transform hover:scale-105 shadow-lg hover:shadow-green-500/50"
+                        >
+                            WhatsApp Us
                         </a>
                     </div>
                 </div>

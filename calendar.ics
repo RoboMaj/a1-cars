@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//damira-dental.portal.dental//dentally//EN
+BEGIN:VEVENT
+UID:0000s7j2nu@damira-dental.portal.dental
+SEQUENCE:0
+DTSTAMP:20251209T163151Z
+DTSTART;TZID=Europe/London:20260313T100000
+DTEND;TZID=Europe/London:20260313T103000
+SUMMARY:Dental appointment with Priya Davuluri
+LOCATION:Damira Chipping Norton\, 28 New Street\, Chipping Norton\, OX7 5L
+ J
+DESCRIPTION:Appointment with Priya Davuluri.\n\nTo cancel or rearrange thi
+ s appointment contact us or visit: https://damira-dental.portal.dental\n\n
+ Many thanks\,\nDamira Chipping Norton\n\nT: 01608 646 620\nE: chippingnort
+ on@email.damiradental.co.uk\n28 New Street\, Chipping Norton\, OX7 5LJ
+ORGANIZER;CN="Priya Davuluri":mailto:chippingnorton@email.damiradental.co.
+ uk
+URL;VALUE=URI:https://damira-dental.portal.dental
+END:VEVENT
+END:VCALENDAR

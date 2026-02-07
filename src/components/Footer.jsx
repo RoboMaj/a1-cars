@@ -22,9 +22,13 @@ const Footer = () => {
                     <div>
                         <h3 className="text-xl font-bold mb-4">Contact Us</h3>
                         <ul className="space-y-2 text-gray-400">
-                            <li>Phone: +1 234 567 8900</li>
-                            <li>Email: info@a1cars.com</li>
-                            <li>Address: 123 Taxi Lane, Cityville</li>
+                            <li>
+                                Phone: <a href="tel:07528133960" className="hover:text-white transition">07528133960</a>
+                            </li>
+                            <li>
+                                Email: <a href="mailto:a1taxichippingnorton@gmail.com" className="hover:text-white transition">a1taxichippingnorton@gmail.com</a>
+                            </li>
+                            <li>Address: 68 Walterbush Road, Chipping Norton, OX7 5DW</li>
                         </ul>
                     </div>
                 </div>
